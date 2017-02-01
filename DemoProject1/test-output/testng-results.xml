@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20" started-at="2017-01-25T10:55:37Z" finished-at="2017-01-25T10:55:37Z">
+  <suite name="Suite" duration-ms="123" started-at="2017-02-01T12:33:38Z" finished-at="2017-02-01T12:33:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20" started-at="2017-01-25T10:55:37Z" finished-at="2017-01-25T10:55:37Z">
-      <class name="pack1.ListenerDemo">
-        <test-method status="PASS" signature="methodA()[pri:0, instance:pack1.ListenerDemo@5a39699c]" name="methodA" duration-ms="8" started-at="2017-01-25T16:25:37Z" finished-at="2017-01-25T16:25:37Z">
+    <test name="Test" duration-ms="123" started-at="2017-02-01T12:33:38Z" finished-at="2017-02-01T12:33:38Z">
+      <class name="pack2.TestB">
+        <test-method status="PASS" signature="method1()[pri:0, instance:pack2.TestB@3cb5cdba]" name="method1" duration-ms="1" started-at="2017-02-01T18:03:38Z" finished-at="2017-02-01T18:03:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodA -->
-        <test-method status="PASS" signature="methodB()[pri:0, instance:pack1.ListenerDemo@5a39699c]" name="methodB" duration-ms="1" started-at="2017-01-25T16:25:37Z" finished-at="2017-01-25T16:25:37Z">
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:pack2.TestB@3cb5cdba]" name="method2" duration-ms="1" started-at="2017-02-01T18:03:38Z" finished-at="2017-02-01T18:03:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodB -->
-      </class> <!-- pack1.ListenerDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method2 -->
+      </class> <!-- pack2.TestB -->
+      <class name="pack1.TestA">
+        <test-method status="PASS" signature="method1()[pri:0, instance:pack1.TestA@35bbe5e8]" name="method1" duration-ms="70" started-at="2017-02-01T18:03:38Z" finished-at="2017-02-01T18:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:pack1.TestA@35bbe5e8]" name="method2" duration-ms="1" started-at="2017-02-01T18:03:38Z" finished-at="2017-02-01T18:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- pack1.TestA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
