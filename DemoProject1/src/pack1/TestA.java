@@ -14,6 +14,7 @@ public class TestA
 	public void method2()
 	{
 		System.out.println("Message2");
+		
 	}
 
 }
